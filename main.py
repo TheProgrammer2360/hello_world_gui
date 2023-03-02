@@ -3,7 +3,7 @@ import time
 # creating an alarm app
 print("Welcome to the alarm app")
 time_for_alarm = input("Enter The time you wanna stop the alarm: ")
-reason = input("Reason for the timer")
+reason = input("Reason for the timer: ")
 time_for_alarm_as_list = time_for_alarm.split(":")
 # waiting until its that time
 not_yet_time = True
